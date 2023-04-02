@@ -19,14 +19,5 @@ sUserInput = sUserInput.replace(" ", "").upper()
 lWords = [dNatoAlphabet2[letter] for letter in sUserInput]
 print(f"\nMethod 1: {lWords}")
 
-#Method 2 (my way !!!)
-#t1 = datetime.datetime.now()
-#lWords = []
-#for letter in sUserInput:
-#    lWords.append({v for (k,v) in dNatoAlphabet2.items() if k==letter})
-#print(f"\nMethod 2: {lWords}")
-#t2 = datetime.datetime.now()
-#delta = t2 - t1
-#print (f"Methos 2 Time: {delta.microseconds} seconds")
 
 
